@@ -1,0 +1,230 @@
+.titulo {
+  color: white;
+}
+
+.texto {
+  color: #d9d9d9;
+}
+
+h1 {
+  font-size: 2.85rem !important;
+}
+
+h2 {
+  font-size: 2rem !important;
+}
+
+h3 {
+  font-size: 1.65rem !important;
+}
+
+h4 {
+  font-size: 1.45rem !important;
+}
+
+p {
+  font-size: 1.15rem !important;
+}
+
+@media (max-width: 600px) {
+  h1 {
+    font-size: 1.8rem !important;
+  }
+  h2 {
+    font-size: 1.8rem !important;
+  }
+  h3 {
+    font-size: 1.5rem !important;
+  }
+  h4 {
+    font-size: 1.25rem !important;
+  }
+  p {
+    font-size: 1rem !important;
+  }
+}
+
+body {
+  background-color: #000;
+}
+
+body .navbar-fixed {
+  position: relative;
+  height: 56px;
+  z-index: 998;
+}
+
+body .navbar-fixed nav {
+  background-color: transparent;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+body .navbar-fixed nav a.brand-logo {
+  max-width: 308px;
+  height: auto;
+}
+
+body .navbar-fixed nav a.brand-logo img.img-logo {
+  max-height: 60px;
+}
+
+body .navbar-fixed nav ul li a {
+  color: #ff671f !important;
+}
+
+body .navbar-fixed nav ul li a:hover {
+  color: #ff671f !important;
+}
+
+body .navbar-fixed nav .sidenav-trigger {
+  color: #ff671f !important;
+  float: right;
+}
+
+body .navbar-fixed nav .sidenav {
+  background-color: #262626 !important;
+}
+
+body main {
+  background-color: black;
+  padding-bottom: 0px;
+}
+
+body main #promocional-video {
+  margin-bottom: 25px;
+}
+
+body main section#nuestros-servicios {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.8)), to(rgba(0, 0, 0, 0.8))), url(../media/cafe-racer-frame-garage-making-1599.jpg);
+  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../media/cafe-racer-frame-garage-making-1599.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding: 25px 0px 25px 0px;
+}
+
+body main section#nuestros-servicios #descripcion-diferenciales h2 {
+  color: white;
+}
+
+body main section#nuestros-servicios #descripcion-diferenciales p {
+  color: #d9d9d9;
+}
+
+body main section#nuestros-servicios div.diferenciales {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 75px;
+}
+
+@media screen and (max-width: 900px) {
+  body main section#nuestros-servicios div.diferenciales {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  body main section#nuestros-servicios div.diferenciales {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
+body main section#nuestros-servicios div.diferenciales .diferencial {
+  width: 20%;
+  margin: auto;
+}
+
+body main section#nuestros-servicios div.diferenciales .diferencial div img {
+  max-width: 150px;
+  height: auto;
+}
+
+@media screen and (max-width: 900px) {
+  body main section#nuestros-servicios div.diferenciales .diferencial {
+    width: 90%;
+  }
+  body main section#nuestros-servicios div.diferenciales .diferencial div img {
+    max-width: 125px;
+    height: auto;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  body main section#nuestros-servicios div.diferenciales .diferencial {
+    width: 95%;
+  }
+  body main section#nuestros-servicios div.diferenciales .diferencial div img {
+    max-width: 100px;
+    height: auto;
+  }
+}
+
+body main section#nuestros-servicios div.diferenciales .diferencial div .texto-diferencial {
+  margin: auto;
+  max-height: 150px;
+}
+
+body main section#nuestros-servicios div.diferenciales .diferencial div .texto-diferencial h4 {
+  color: white;
+}
+
+body main section#nuestros-servicios div.diferenciales .diferencial div .texto-diferencial p {
+  color: #d9d9d9;
+}
+
+body main .contacto {
+  margin-bottom: 0px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+body main .contacto div.container div.container form #email {
+  color: #ff671f;
+  transition: box-shadow .3s, border .3s, -webkit-box-shadow .3s;
+}
+
+body main .contacto div.container div.container form #email:focus {
+  border-bottom: 1px solid #ff671f !important;
+  -webkit-box-shadow: 0 1px 0 0 #ff671f !important;
+          box-shadow: 0 1px 0 0 #ff671f !important;
+}
+
+body main .contacto div.container div.container form #submit {
+  background-color: #ff671f;
+  border-radius: 2px;
+  color: #d9d9d9;
+  padding: 10px 20px 10px 20px;
+}
+
+body .page-footer {
+  background-color: #262626 !important;
+  color: #ff7839 !important;
+}
+
+body .page-footer .container .row .center ul li p {
+  color: #ff7839 !important;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+body .page-footer .container .row .center ul li p a {
+  color: #eb4c00 !important;
+}
+
+body .page-footer .footer-copyright {
+  background-color: black !important;
+  color: #ff7839 !important;
+}
+
+body .page-footer .footer-copyright div a {
+  color: #eb4c00 !important;
+}
+/*# sourceMappingURL=style.css.map */

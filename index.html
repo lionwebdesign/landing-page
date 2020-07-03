@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing page | By Freecodecamp</title>
+    
+    
+    <link rel="stylesheet" href="./style/style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Estilos de materialize -->
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+</head>
+<body>
+
+  <header class="navbar-fixed" id="header">
+    <nav class="" role="navigation" id="nav-bar">
+      <div class="nav-wrapper container">
+        <!-- <div class="brand-logo"> -->
+        <a class="brand-logo" id="" href="https://lionwebdesign.github.io/home/" class="brand-logo" target="_blanck"><img src="./media/Logo secundario.png"
+            class="img-logo responsive-img" id="header-img"></a>
+        <!-- </div> -->
+
+        <!-- ---Desktop navbar--- -->
+        <ul class="right hide-on-med-and-down">
+          <li><a href="https://lionwebdesign.github.io/home/" target="_blanck">Inicio</a></li>
+          <li><a href="#promocional-video" class="nav-link">Vídeo Promocional</a></li>
+          <li><a href="#nuestros-servicios" class="nav-link">Servicios</a></li>
+          <li><a href="#formulario-contacto" class="nav-link">Contacto</a></li>
+          <!-- <li><a href="contacto.html">CONTATO</a></li> -->
+        </ul>
+
+        <!-- ---Mobile navbar--- -->
+        <ul id="nav-mobile" class="sidenav">
+          <li><a href="https://lionwebdesign.github.io/home/" target="_blanck">Inicio</a></li>
+          <li><a href="#promocional-video" class="nav-link">Vídeo Promocional</a></li>
+          <li><a href="#nuestros-servicios" class="nav-link">Servicios</a></li>
+          <li><a href="#formulario-contacto" class="nav-link">Contacto</a></li>
+          <!-- <li><a href="contacto.html">CONTATO</a></li> -->
+        </ul>
+        <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+      </div>
+    </nav>
+</header>
+
+    <main id="main">
+
+      <section class="row">
+        <div class="container center">
+          <h1 class="titulo">Lion Motorsport</h1>
+          <p class="texto">¿Deseas crear una motocicleta unica?</p>
+        </div>
+      </section>
+
+      <section class="row">
+        <div class="container" id="promocional-video">
+           <div class="video-container">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/DV-epR7WjbM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen id="video"></iframe>
+           </div>
+        </div>
+      </section>
+
+        <section class="row" id="nuestros-servicios">
+          
+          <div class="container center" id="descripcion-diferenciales">
+            <h2 class="titulo">Expresa tu pasión por el motociclismo</h2>
+            <p class="texto">Nosostros podemos ayudarte a realizar tu proyecto y poner en marcha tu creatividad</p>
+          </div>
+
+          <div class="diferenciales">
+            <div class="diferencial">
+              <div id="diferencial-1" class="center">
+                <div>
+                  <img src="./media/dif 1 _1_ Naranja.png" alt="" class="responsive-img">
+                </div>
+                <div class="texto-diferencial">
+                  <h4 class="titulo">Accesorios para pilotos</h4>
+                  <p class="texto">Equipate con las mejores marcas y productos para que siempre estes listo para la carretera.</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="diferencial">
+              <div id="diferencial-2" class="center">
+                <div>
+                  <img src="./media/dif 2 Naranja.png" alt="" class="responsive-img">
+                </div>
+                <div class="texto-diferencial">
+                  <h4 class="titulo">Diseño y Construcción</h4>
+                  <p class="texto">Podemos diseãr y construir tu proyecto desde cero y ayudarte a elegir la mejor opción para iniciar.</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="diferencial">
+              <div id="diferencial-3" class="center">
+                <div>
+                  <img src="./media/dif 3 Naranja.png" alt="" class="responsive-img">
+                </div>
+                <div class="texto-diferencial">
+                  <h4 class="titulo">Piezas y Refacciones</h4>
+                  <p class="texto">Distribuimos una gran variedad de refacciones para auxiliarte en la construcción de tu proyecto.</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="diferencial">
+              <div id="diferencial-4" class="center">
+                <div>
+                  <img src="./media/dif 4 Naranja.png" alt="" class="responsive-img">
+                </div>
+                <div class="texto-diferencial">
+                  <h4 class="titulo">Mejores Precios</h4>
+                  <p class="texto">Nuestros especialistas encontraran los mejores preciós del mercado para ti.</p>
+                </div>
+              </div>
+            </div>
+
+        </div>
+      </section>
+
+      <section class="row contacto">
+        <div class="container center">
+            <div class="container" id="formulario-contacto">
+                <p class="texto">¿Quieres recibir más información?</p>
+                <form action="https://www.freecodecamp.com/email-submit" id="form">
+                    <input type="email" name="email" id="email" placeholder="Ingresa tu e-mail" required>
+                    <input type="submit" value=" Enviar" class="waves-effect waves-light" id="submit">
+                </form>
+            </div>
+        </div>
+    </section>
+
+    </main>
+
+    <footer class="page-footer teal">
+        <div class="container">
+          <div class="row">
+            <div class="center">
+              <h4 class="">Contato</h4>
+              <ul>
+                <li>
+                  <p>contato.lionwedesign@gmail.com | <a href="https://wa.me/5541998324959?text=Ol%C3%A1!" target="_blanck">(41) 9 9832-4959</a></p>
+                </li>
+              </ul>
+            </div>
+            
+          </div>
+        </div>
+        <div class="footer-copyright">
+          <div class="container">
+            Powered by <a class="" target="_blank" href="https://lionwebdesign.github.io/home/">Lionwebdesign</a>
+          </div>
+        </div>
+        </footer>
+
+    <!-- Jqrery     -->
+    <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <!-- Tester de freecodecamp -->
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+    <script src="./js/js.js"></script>
+</body>
+</html>
